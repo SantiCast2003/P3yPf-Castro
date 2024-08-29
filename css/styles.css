@@ -99,6 +99,7 @@ footer {
     .boton{float:none; width:auto;}
     .medialunas{float:none; width:auto;}
     .precios{float:none; width:auto;}
+    .navbar-expand-lg navbar-light bg-light{float:none; width:auto;}
 }
 /* pagina semitas */
 .semitas{
@@ -140,9 +141,20 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.textonosotros{
+    margin-left: 10%;
+   background: #a5d2ff;
+}
 
-
-
+.imagenpanaderia{
+    display:flex ;
+    justify-content: left;
+    align-items: left;
+    margin-left: 0%;
+}
+.footer{
+    margin-top: 500%;
+}
 
 
 
