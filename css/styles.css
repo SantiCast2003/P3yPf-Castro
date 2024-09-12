@@ -1,159 +1,190 @@
 /* Pagina Principal */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  background-color: #e8e5e5;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
+
 header {
-    background-color: #a5d2ff;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #a5d2ff;
+  padding: 20px 0;
+  text-align: center;
 }
+
 nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
+
 nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .product {
-    float: left;
-    width: calc(33.33% - 44px);
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
+  float: left;
+  width: calc(33.33% - 44px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
 }
+
 .product img {
-    max-width: 100%;
-    height: auto;
-    width: 300px; 
-    height: 300px;
-    
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  height: 300px;
 }
+
 .product h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
+
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 #titulo1 {
-    
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .nosotros {
-    float: left;
-    width: 45%;
+  float: left;
+  width: 45%;
 }
 
-.nosotros img{
-    display: grid; grid-template-columns: minmax(150px, 1fr);
-    width: 450px;
-    margin-top: 18px;
+.nosotros img {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr);
+  width: 450px;
+  margin-top: 18px;
 }
 
-#nosotrosbox{
-    margin-top: 25px;
+#nosotrosbox {
+  margin-top: 25px;
 }
 
-.contacto{
-    width: 45%;
-    float: left;
+.contacto {
+  width: 45%;
+  float: left;
 }
 
-#contactoid{
-    margin-bottom: 25px;
+#contactoid {
+  margin-bottom: 25px;
 }
 
-#productosid{
-    margin-bottom: 55px;
+#productosid {
+  margin-bottom: 55px;
 }
 
 @media only screen and (max-width: 768px) {
-    .nosotros{float:none; width: 100%;}
-    .product{float:none; width:auto;}
-    .contacto{float:none; width: auto;}
-    .boton{float:none; width:auto;}
-    .semitas{float:none; width:auto;}
-    .fotosemita{float:none; width:auto;}
-    .boton{float:none; width:auto;}
-    .medialunas{float:none; width:auto;}
-    .precios{float:none; width:auto;}
-    .navbar-expand-lg navbar-light bg-light{float:none; width:auto;}
+  .nosotros {
+    float: none;
+    width: 100%;
+  }
+  .product {
+    float: none;
+    width: auto;
+  }
+  .contacto {
+    float: none;
+    width: auto;
+  }
+  .boton {
+    float: none;
+    width: auto;
+  }
+  .semitas {
+    float: none;
+    width: auto;
+  }
+  .fotosemita {
+    float: none;
+    width: auto;
+  }
+  .boton {
+    float: none;
+    width: auto;
+  }
+  .medialunas {
+    float: none;
+    width: auto;
+  }
+  .precios {
+    float: none;
+    width: auto;
+  }
+  .navbar-expand-lg navbar-light bg-light {
+    float: none;
+    width: auto;
+  }
 }
-/* pagina semitas */
-.semitas{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    
-}
-    
-  
-.fotosemita{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-.boton{
-
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-
-.medialunas{
-
-    padding: 10px;
-    margin: 10px;
-    height: auto;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.medialunastit{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.precios{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.textonosotros{
-    margin-left: 10%;
-   background: #a5d2ff;
+.semitas {
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
-.imagenpanaderia{
-    display:flex ;
-    justify-content: left;
-    align-items: left;
-    margin-left: 0%;
+.fotosemita {
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
+.boton {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
 
+.medialunas {
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
+.medialunastit {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
+.precios {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
+.textonosotros {
+  margin-left: 10%;
+}
+
+.imagenpanaderia {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: 0%;
+}
+
+/*# sourceMappingURL=styles.css.map */
